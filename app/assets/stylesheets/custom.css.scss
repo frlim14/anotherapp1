@@ -1,0 +1,94 @@
+$navbar-default-bg: #08668A;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#ftcolor {
+	color: #333333;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('4400-lebron-james.jpg');
+	background-size: cover;
+	height: 800px;
+}
+
+.jumbotron h1 {
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.btn-xlarge {
+	font-size: 1.8em
+}
+
+.article-meta-details {
+	border-top: 1px solid #eaeaea;
+	margin-top: 15px;
+}
+
+.article-actions {
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+.description {
+	margin-top: 0;
+}
+
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-job {
+	font-size: 1.2em;
+	color: rgb(100,155,88);
+}
+
+.article-body {
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer {
+	margin-top: 55px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+.footer a:hover {
+	color: #222;
+}
+
+.footer small {
+	float: left;
+}
+
+.footer ul {
+	float: right;
+	list-style: none;
+}
